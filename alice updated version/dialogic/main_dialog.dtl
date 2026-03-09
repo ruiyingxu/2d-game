@@ -1,0 +1,191 @@
+[background arg="res://实际/背景/forest.png" fade="0.0"]
+join Rabbit (Rabbit Run) left [animation="Slide From Left" length="2.0" wait="true"]
+A rabbit passes by in the background
+leave Rabbit
+join Alice right
+Alice: Oh! A Talking Rabbit!
+- do not follow the rabbit
+	join Rabbit (rabbit) left
+	Rabbit: Come ON! We are late!
+	[clear time="1.0"]
+- follow the rabbit
+	[clear time="1.0"]
+[background arg="res://实际/背景/converted-564.png" fade="0.0"]
+leave Rabbit
+leave Alice
+Alice falls into a rabbit hole\
+and found a small door
+there's a key on the table
+[background arg="res://实际/背景/Gemini_Generated_Image_7frwij7frwij7frw.png" fade="0.0"]
+- eat the mushroom (become biggerthen cry )
+- Drink the poison (become smaller)
+	Alice (alice standing): Oh No ! I cannot reach the key
+	- eat the mushroom (become biggerthen cry )
+get the key and become small \
+flood through the door
+[background arg="res://实际/背景/forest.png" fade="0.0"]
+leave Alice
+- meet twinkle dee and dun : force to listen a story
+	join Tweedledum left
+	Tweedledum: Contrariwise, if it was so, it might be; and if it were so, it would be; but as it isn’t, it ain’t. That’s logic.
+	leave Tweedledum
+	join Tweedledee left
+	Tweedledee: (clapping hands) If you think we’re waxworks, you ought to pay, you know.
+	join Alice right
+	Alice: (confused) I never said you were waxworks!
+	leave Tweedledee
+	join Tweedledum left
+	Tweedledum: The Walrus and the Carpenter were walking close at hand;\
+	They wept like anything to see\
+	Such quantities of sand…
+	Alice: Are you reciting poetry?
+	Tweedledee: It’s a very sad story.
+	Tweedledum: The Walrus and the Carpenter invite the oysters to take a walk. The oysters follow them…
+	Alice: That was very kind of them.
+	Tweedledee: (shaking head) Not at all. They ate them all.
+	Alice: Alice\: Oh! That was dreadful!
+	Tweedledum: Tweedledum\: The Walrus felt sorry…
+	Tweedledee: Tweedledee\: But he ate more than the Carpenter.
+- meet flowersforced to listen to them sing
+	join Alice (alice standing) right
+	Alice steps into a bright, perfectly arranged garden. The flowers are tall, symmetrical, and facing the same direction. As she moves forward, they begin to whisper.
+	join Rose left
+	Rose: Who is that wandering creature?
+	leave Rose
+	join Daisy left
+	join  center
+	Daisy: She has no petals.
+	leave Daisy
+	join Lily left
+	Lily: And no fragrance. How unfortunate.
+	Alice: I’m sorry. I was only looking for the way out.
+	leave Lily
+	join Rose left
+	Rose: Looking? Flowers do not look. We bloom.
+	leave Rose
+	join Tulip center
+	Tulip: We stand still and are admired.
+	The flowers begin to hum softly, then sing together.
+	Flowers (singing)\:\
+	We bloom in rows, we bloom in rhyme,\
+	We measure space, we measure time.\
+	We face the sun, we never roam,\
+	The garden is our perfect home.
+	Alice: It’s very beautiful… but don’t you ever wish to see something beyond the garden?
+	The humming stops.
+	leave Tulip
+	join Rose left
+	Rose: Beyond?
+	leave Rose
+	join Daisy left
+	Daisy: How improper.
+	leave Daisy
+	join Lily left
+	Lily: Movement suggests instability.
+	Flowers (singing louder)\:\
+	Rooted deep, we never stray,\
+	The earth decides where we will stay.\
+	To wander wild is quite absurd,\
+	A roaming stem is most unheard.
+	leave Lily
+	Alice: But I’m not a flower. I don’t have roots.
+	join Rose left
+	Rose: That is precisely the problem.
+	leave Rose
+	join Tulip left
+	Tulip: No roots. No symmetry.
+	leave Tulip
+	join Lily left
+	Lily: No belonging.
+	The wind shifts. The flowers lean toward her.
+	leave Lily
+	join Daisy left
+	Daisy: She bends the air around her.
+	leave Daisy
+	join Rose left
+	Rose: You are disturbing the arrangement.
+	leave Rose
+	Flowers (chanting in rhythm)\:\
+	Out of place.\
+	Out of line.\
+	Out of pattern.\
+	Out of design.
+	Alice: I didn’t mean to disturb anything.
+	join Lily left
+	Lily: Intention does not matter.
+	leave Lily
+	join Rose left
+	Rose: This garden is not for wandering things.
+	Flowers (stronger, overlapping voices)\:\
+	Back to the path.\
+	Back to the stone.\
+	Find a world\
+	That is your own.
+	The air grows heavy. Petals swirl. Alice steps backward.
+	Alice: I’ll go.
+	Rose: Good.
+	leave Rose
+	join Daisy left
+	Daisy: She was never meant to bloom here.
+	Alice exits. The flowers return to stillness, facing the sun as if nothing happened.
+- met a talking caterpillar
+	join Alice right
+	A Caterpillar sits on a mushroom, watching Alice through a cloud of smoke.
+	join Caterpillar left
+	Caterpillar: Who are you?
+	Alice: I'm not quite sure anymore.
+	Caterpillar: Not sure?
+	Alice: I've changed so many times today. I don't feel like myself.
+	Caterpillar: Then who is "yourself"?
+	Alice: I… I don't know.
+	Caterpillar: How unfortunate.
+	A pause.
+	Caterpillar: Recite something.
+	Alice: Why?
+	Caterpillar: To see if you still can.
+	Alice tries, but the words come out wrong.
+	Alice: That's not how it goes…
+	Caterpillar: Memory uncertain. Identity uncertain. Size uncertain.
+	Alice: I am certain I'm me!
+	Caterpillar: Are you?
+	He gestures to the mushroom.
+	Caterpillar: One side makes you taller. The other makes you shorter.
+	Alice: Which side is which?
+	The Caterpillar begins to crawl away.
+	Caterpillar: Discover it.
+	He disappears, leaving Alice alone with the mushroom.
+	leave Caterpillar
+	leave Alice
+	jump cheshire_cat_scene
+- Met Cheshire cat
+	jump cheshire_cat_scene
+label cheshire_cat_scene
+[clear time="1.0"]
+join Alice right
+join "Cheshire Cat" left
+"Cheshire Cat": You look lost.
+Alice: I am. Which way should I go?
+"Cheshire Cat": That depends on where you wish to arrive.
+Alice: I'm looking for someone sensible.
+The Cat laughs softly.
+"Cheshire Cat": You will not find that here. We're all mad.
+Alice: All of you?
+"Cheshire Cat": Especially him.
+Alice: Him?
+"Cheshire Cat": The Hatter. He's having tea this very moment.
+Alice: Is he dangerous?
+"Cheshire Cat": Only to logic.
+Alice: Can you take me to him?
+The Cat's body fades, leaving only his grin.
+"Cheshire Cat": I can show you the way.
+His tail flicks toward a crooked path.
+"Cheshire Cat": Follow the laughter.
+The Cat disappears completely.
+leave "Cheshire Cat"
+Alice hesitates, then walks toward the distant sound of teacups clattering.
+leave Alice
+label mad_hatter_scene
+[clear time="1.0"]
+join "mat hatter" left
+join Alice right
+"mat hatter": Hi Alice! Do you want to have a tea with me
