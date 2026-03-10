@@ -31,6 +31,7 @@ directories/dch_directory={
 "Cheshire Cat": "res://Cheshire Cat.dch",
 "Daisy": "res://Daisy.dch",
 "Lily": "res://Lily.dch",
+"Queen": "res://Queen.dch",
 "Rabbit": "res://Rabbit.dch",
 "Rose": "res://Rose.dch",
 "Tulip": "res://Tulip.dch",
@@ -39,6 +40,9 @@ directories/dch_directory={
 "mat hatter": "res://mat hatter.dch"
 }
 directories/dtl_directory={
+"Have a tea": "res://Have a tea.dtl",
+"go into the jungle": "res://go into the jungle.dtl",
+"have a tea ": "res://have a tea .dtl",
 "main_dialog": "res://dialogic/main_dialog.dtl"
 }
 layout/style_directory={}

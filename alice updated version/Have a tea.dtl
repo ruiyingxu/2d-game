@@ -1,0 +1,10 @@
+join Alice left
+join "mat hatter" right
+[background arg="res://实际/背景/Gemini_Generated_Image_nxi5xjnxi5xjnxi5.png" fade="0.0"]
+"mat hatter": Alice! Let's have some tea!
+Alice: Sure!
+"mat hatter": OhNOo The Queen is cOmiNGG!
+leave "mat hatter"
+Alice (Alice Shock): No Wait !
+leave Alice
+jump main_dialog/Meet The Queen

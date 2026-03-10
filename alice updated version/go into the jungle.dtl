@@ -1,0 +1,16 @@
+join Alice (Alice Shock) center
+[background arg="res://实际/背景/Gemini_Generated_Image_608li4608li4608l.png" fade="0.0"]
+- left
+	[wait time="1.0"]
+	jump Jungle 2 
+- right
+	[wait time="1.0"]
+	jump Jungle 2 
+label Jungle 2 
+[background arg="res://实际/背景/Gemini_Generated_Image_wlowkiwlowkiwlow.png" fade="0.0"]
+- left
+	[wait time="1.0"]
+- right
+	[wait time="1.0"]
+leave Alice
+jump main_dialog/Meet The Queen

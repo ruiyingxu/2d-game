@@ -1,0 +1,8 @@
+Alice: The Caterpillar begins to crawl away.
+"mat hatter": Discover it.
+He disappears, leaving Alice alone with the mushroom.
+leave Caterpillar
+leave Alice
+jump cheshire_cat_scene
+if {} == "":
+if {} == "":

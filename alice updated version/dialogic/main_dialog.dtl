@@ -151,8 +151,8 @@ leave Alice
 	He gestures to the mushroom.
 	Caterpillar: One side makes you taller. The other makes you shorter.
 	Alice: Which side is which?
-	The Caterpillar begins to crawl away.
-	Caterpillar: Discover it.
+	Alice: The Caterpillar begins to crawl away.
+	"mat hatter": Discover it.
 	He disappears, leaving Alice alone with the mushroom.
 	leave Caterpillar
 	leave Alice
@@ -189,3 +189,63 @@ label mad_hatter_scene
 join "mat hatter" left
 join Alice right
 "mat hatter": Hi Alice! Do you want to have a tea with me
+- Sure
+	jump Have a tea/
+	leave "mat hatter"
+- No, I want to go home...
+	jump go into the jungle/
+	leave "mat hatter"
+leave "mat hatter"
+label Meet The Queen
+[background arg="res://实际/背景/Gemini_Generated_Image_nxi5xjnxi5xjnxi5.png" fade="0.0"]
+join Alice (alice standing) left
+join Queen right
+Queen: Do you know the penalty for wandering without permission?
+Alice: I was only trying to find my way home.
+Queen: Suspicious answer...
+Queen: We shall have a trial!
+Alice (Alice Shock): A trial? For what?
+Queen: We will decide that later.
+Alice (Alice Shock): But that isn’t fair!
+leave Queen
+leave Alice
+join Queen left
+join Alice right
+[background arg="res://实际/背景/Gemini_Generated_Image_guxjhjguxjhjguxj.png" fade="0.0"]
+On the trail day...
+Alice: This is nonsense
+Queen: Exactly
+Alice: When I return to my normal size you will be afraid of me!
+label Trail day
+- Eat the Mushroom
+	Alice beame huge and everyone is afraid of her
+	Alice (alice standing): Look ! Now you should be afraid of me!
+	Two minutes later she returns to norma
+	Alice (Alice Shock): Wait .. No!
+	[wait time="1.0"]
+	jump Trail day
+- Run
+	jump 
+[wait time="1.0"]
+label DoorScene
+join Alice (Alice Shock) leftmost
+[background arg="res://实际/背景/Gemini_Generated_Image_raoitqraoitqraoi.png" fade="0.0"]
+Choose the right door to escape
+- A
+	jump AliceSleep
+- B
+	jump DoorScene
+- C
+	jump DoorScene
+label AliceSleep
+[background arg="res://实际/背景/Gemini_Generated_Image_sci8g0sci8g0sci8.png" fade="0.0"]
+Alice: Wake Up!
+Queen: Get her !
+Alice: No !
+leave Alice
+leave Queen
+[wait time="2.0"]
+[background arg="res://实际/背景/Gemini_Generated_Image_hq9hg6hq9hg6hq9h.png" fade="0.0"]
+Alice woke up from her dream !
+[wait time="1.3"]
+jump
