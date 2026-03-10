@@ -1,3 +1,4 @@
+[background arg="res://实际/背景/(79).png" fade="0.0"]
 [background arg="res://实际/背景/forest.png" fade="0.0"]
 join Rabbit (Rabbit Run) left [animation="Slide From Left" length="2.0" wait="true"]
 A rabbit passes by in the background
