@@ -1,8 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://duc4c6qcgk3nc"]
+[gd_scene format=3 uid="uid://duc4c6qcgk3nc"]
 
 [ext_resource type="Script" uid="uid://b21v31ykb1isn" path="res://DialogScene.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://rly86tu14tpp" path="res://实际/背景/(79).png" id="2_2vpl8"]
 
-[node name="DialogScene" type="Control"]
+[node name="Start Scene" type="Control" unique_id=928561203]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -11,17 +12,72 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1")
 
-[node name="StartButton" type="Button" parent="."]
+[node name="TextureRect" type="TextureRect" parent="." unique_id=2141914247]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 88.0
+offset_top = -30.0
+offset_right = -119.0
+offset_bottom = 45.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_2vpl8")
+expand_mode = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1863742995]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -4.0
+offset_top = -23.0
+offset_right = -4.0
+offset_bottom = -23.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer" unique_id=534977643]
+modulate = Color(0.012617188, 0.012617188, 0.012617188, 1)
+custom_minimum_size = Vector2(10, 10)
+layout_direction = 2
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "WELCOME, ALICE.
+
+You’ve fallen back into Wonderland… 
+but this time, leaving won’t be so easy.
+Something in this world is broken. Paths shift. Doors lie. 
+And some friends may not actually want to help you.
+
+THE RULES ARE SIMPLE:
+• You must find your way out before time runs out.
+• Every choice changes the path.
+• Some choices will help you escape…
+• Others will trap you deeper in Wonderland.
+
+Choose wisely.
+
+Because if the clock reaches midnight…
+
+You will remain in Wonderland… forever."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="StartButton" type="Button" parent="." unique_id=280853231]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -46.0
-offset_top = -18.0
-offset_right = 54.0
-offset_bottom = 13.0
+offset_left = -65.0
+offset_top = 186.0
+offset_right = 35.0
+offset_bottom = 217.0
 grow_horizontal = 2
 grow_vertical = 2
 text = "Start Game"
