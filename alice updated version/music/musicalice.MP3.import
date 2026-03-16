@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/musicalice.MP3-70342725d94c68038cae57a5e6f747
 [params]
 
 loop=true
-loop_offset=0
+loop_offset=0.0
 bpm=50.88
-beat_count=2
+beat_count=960
 bar_beats=4

@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://duc4c6qcgk3nc"]
+[gd_scene load_steps=5 format=3 uid="uid://duc4c6qcgk3nc"]
 
 [ext_resource type="Script" uid="uid://b21v31ykb1isn" path="res://DialogScene.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://rly86tu14tpp" path="res://实际/背景/(79).png" id="2_2vpl8"]
 [ext_resource type="Texture2D" uid="uid://bgd1s28rcnqpi" path="res://实际/converted-569.png" id="3_timer"]
+[ext_resource type="AudioStream" uid="uid://df6u7ky8sj3os" path="res://music/musicalice.MP3" id="4_ks2t6"]
 
 [node name="Start Scene" type="Control"]
 layout_mode = 3
@@ -119,3 +120,7 @@ theme_override_font_sizes/font_size = 36
 text = "10:00"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_ks2t6")
+autoplay = true
