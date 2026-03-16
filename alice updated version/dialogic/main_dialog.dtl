@@ -18,15 +18,15 @@ Alice falls into a rabbit hole\
 and found a small door
 there's a key on the table
 [background arg="res://实际/背景/Gemini_Generated_Image_7frwij7frwij7frw.png" fade="0.0"]
-- eat the mushroom (become biggerthen cry )
-- Drink the poison (become smaller)
+- Eat the mushroom
+- Drink the poison
 	Alice (alice standing): Oh No ! I cannot reach the key
 	- eat the mushroom (become biggerthen cry )
 get the key and become small \
 flood through the door
 [background arg="res://实际/背景/forest.png" fade="0.0"]
 leave Alice
-- meet twinkle dee and dun : force to listen a story
+- Twinkle dee and dun
 	join Tweedledum left
 	Tweedledum: Contrariwise, if it was so, it might be; and if it were so, it would be; but as it isn’t, it ain’t. That’s logic.
 	leave Tweedledum
@@ -47,7 +47,7 @@ leave Alice
 	Alice: Alice\: Oh! That was dreadful!
 	Tweedledum: Tweedledum\: The Walrus felt sorry…
 	Tweedledee: Tweedledee\: But he ate more than the Carpenter.
-- meet flowersforced to listen to them sing
+- Go to the flowers
 	join Alice (alice standing) right
 	Alice steps into a bright, perfectly arranged garden. The flowers are tall, symmetrical, and facing the same direction. As she moves forward, they begin to whisper.
 	join Rose left
@@ -129,7 +129,7 @@ leave Alice
 	join Daisy left
 	Daisy: She was never meant to bloom here.
 	Alice exits. The flowers return to stillness, facing the sun as if nothing happened.
-- met a talking caterpillar
+- Find the talking caterpillar
 	join Alice right
 	A Caterpillar sits on a mushroom, watching Alice through a cloud of smoke.
 	join Caterpillar left
@@ -218,7 +218,14 @@ Alice: This is nonsense
 Queen: Exactly
 Alice: When I return to my normal size you will be afraid of me!
 label Trail day
+join Alice center
+leave Queen
+[background arg="res://实际/背景/Gemini_Generated_Image_guxjhjguxjhjguxj.png" fade="0.0"]
 - Eat the Mushroom
+	jump Eat The Mushroom
+	label Eat The Mushroom
+	join Alice center
+	[background arg="res://实际/背景/Gemini_Generated_Image_guxjhjguxjhjguxj.png" fade="0.0"]
 	Alice beame huge and everyone is afraid of her
 	Alice (alice standing): Look ! Now you should be afraid of me!
 	Two minutes later she returns to norma
@@ -226,10 +233,11 @@ label Trail day
 	[wait time="1.0"]
 	jump Trail day
 - Run
-	jump 
+	jump DoorScene
 [wait time="1.0"]
 label DoorScene
 join Alice (Alice Shock) leftmost
+leave Alice
 [background arg="res://实际/背景/Gemini_Generated_Image_raoitqraoitqraoi.png" fade="0.0"]
 Choose the right door to escape
 - A
@@ -240,7 +248,9 @@ Choose the right door to escape
 	jump DoorScene
 label AliceSleep
 [background arg="res://实际/背景/Gemini_Generated_Image_sci8g0sci8g0sci8.png" fade="0.0"]
+join Alice center
 Alice: Wake Up!
+join Queen center
 Queen: Get her !
 Alice: No !
 leave Alice
@@ -249,4 +259,3 @@ leave Queen
 [background arg="res://实际/背景/Gemini_Generated_Image_hq9hg6hq9hg6hq9h.png" fade="0.0"]
 Alice woke up from her dream !
 [wait time="1.3"]
-jump
