@@ -79,7 +79,7 @@ audio/channel_defaults={
 "audio_bus": "",
 "fade_length": 0.0,
 "loop": true,
-"volume": 0.0
+"volume": 1.3
 }
 }
 translation/enabled=false

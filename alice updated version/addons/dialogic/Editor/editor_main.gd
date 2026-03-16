@@ -11,6 +11,7 @@ var editor_file_dialog: EditorFileDialog
 @onready var sidebar := %Sidebar as DialogicSidebar
 
 func _ready() -> void:
+	
 	if get_parent() is SubViewport:
 		return
 
