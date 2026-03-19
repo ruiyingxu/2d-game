@@ -16,14 +16,13 @@ leave Rabbit
 leave Alice
 Alice falls into a rabbit hole\
 and found a small door
-there's a key on the table
+Let me get the key ! But, I need to get throught the small door what should I do ?
 [background arg="res://实际/背景/Gemini_Generated_Image_7frwij7frwij7frw.png" fade="0.0"]
 - Eat the mushroom
 - Drink the poison
-	Alice (alice standing): Oh No ! I cannot reach the key
+	Alice (alice standing): Oh No ! I cannot reach the key!
 	- eat the mushroom (become biggerthen cry )
-get the key and become small \
-flood through the door
+WOW a small door !
 [background arg="res://实际/背景/forest.png" fade="0.0"]
 leave Alice
 - Twinkle dee and dun
@@ -189,11 +188,11 @@ label mad_hatter_scene
 [clear time="1.0"]
 join "mat hatter" left
 join Alice right
-"mat hatter": Hi Alice! Do you want to have a tea with me
+"mat hatter": Hi Alice! Do you want to have a tea with me?
 - Sure
 	jump Have a tea/
 	leave "mat hatter"
-- No, I want to go home...
+- No, I want to go home...I think there's a way in the jungle...
 	jump go into the jungle/
 	leave "mat hatter"
 leave "mat hatter"
@@ -232,14 +231,15 @@ leave Queen
 	Alice (Alice Shock): Wait .. No!
 	[wait time="1.0"]
 	jump Trail day
-- Run
+- Run at full speed to escape
 	jump DoorScene
 [wait time="1.0"]
 label DoorScene
 join Alice (Alice Shock) leftmost
 leave Alice
 [background arg="res://实际/背景/Gemini_Generated_Image_raoitqraoitqraoi.png" fade="0.0"]
-Choose the right door to escape
+Three doors and only one leads to the real world...
+Choose the right door to escape or you will trap in the same situation forever
 - A
 	jump AliceSleep
 - B
@@ -257,5 +257,5 @@ leave Alice
 leave Queen
 [wait time="2.0"]
 [background arg="res://实际/背景/Gemini_Generated_Image_hq9hg6hq9hg6hq9h.png" fade="0.0"]
-Alice woke up from her dream !
+Alice woke up from her dream ! !
 [wait time="1.3"]
