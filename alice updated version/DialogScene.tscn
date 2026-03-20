@@ -1,11 +1,11 @@
-[gd_scene load_steps=5 format=3 uid="uid://duc4c6qcgk3nc"]
+[gd_scene format=3 uid="uid://duc4c6qcgk3nc"]
 
 [ext_resource type="Script" uid="uid://b21v31ykb1isn" path="res://DialogScene.gd" id="1"]
-[ext_resource type="Texture2D" uid="uid://rly86tu14tpp" path="res://实际/背景/(79).png" id="2_2vpl8"]
+[ext_resource type="Texture2D" uid="uid://ddxg7prvbvdvt" path="res://实际/背景/final主背景.png" id="2_ks2t6"]
 [ext_resource type="Texture2D" uid="uid://bgd1s28rcnqpi" path="res://实际/converted-569.png" id="3_timer"]
 [ext_resource type="AudioStream" uid="uid://df6u7ky8sj3os" path="res://music/musicalice.MP3" id="4_ks2t6"]
 
-[node name="Start Scene" type="Control"]
+[node name="Start Scene" type="Control" unique_id=417544711]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -14,7 +14,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1")
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="TextureRect" type="TextureRect" parent="." unique_id=44329682]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -25,10 +25,10 @@ offset_right = -119.0
 offset_bottom = 45.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_2vpl8")
+texture = ExtResource("2_ks2t6")
 expand_mode = 3
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1167927775]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -41,7 +41,8 @@ grow_horizontal = 2
 grow_vertical = 2
 alignment = 1
 
-[node name="Label" type="Label" parent="VBoxContainer"]
+[node name="Label" type="Label" parent="VBoxContainer" unique_id=2106195464]
+visible = false
 modulate = Color(0.0126172, 0.0126172, 0.0126172, 1)
 custom_minimum_size = Vector2(10, 10)
 layout_direction = 2
@@ -69,25 +70,25 @@ horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 3
 
-[node name="StartButton" type="Button" parent="."]
+[node name="StartButton" type="Button" parent="." unique_id=2104792094]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -65.0
-offset_top = 186.0
-offset_right = 35.0
-offset_bottom = 217.0
+offset_left = -69.0
+offset_top = 153.0
+offset_right = 31.0
+offset_bottom = 184.0
 grow_horizontal = 2
 grow_vertical = 2
 text = "Start Game"
 
-[node name="TimerLayer" type="CanvasLayer" parent="."]
+[node name="TimerLayer" type="CanvasLayer" parent="." unique_id=1250325179]
 layer = 100
 
-[node name="TimerContainer" type="Control" parent="TimerLayer"]
+[node name="TimerContainer" type="Control" parent="TimerLayer" unique_id=184449174]
 visible = false
 layout_mode = 3
 anchors_preset = 1
@@ -99,7 +100,7 @@ offset_right = -10.0
 offset_bottom = 120.0
 grow_horizontal = 0
 
-[node name="TimerBG" type="TextureRect" parent="TimerLayer/TimerContainer"]
+[node name="TimerBG" type="TextureRect" parent="TimerLayer/TimerContainer" unique_id=460623744]
 layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -109,7 +110,7 @@ texture = ExtResource("3_timer")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="TimerLabel" type="Label" parent="TimerLayer/TimerContainer"]
+[node name="TimerLabel" type="Label" parent="TimerLayer/TimerContainer" unique_id=1723530633]
 layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -121,6 +122,6 @@ text = "10:00"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=250357114]
 stream = ExtResource("4_ks2t6")
 autoplay = true

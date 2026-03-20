@@ -1,4 +1,4 @@
-[background arg="res://实际/背景/(79).png" fade="0.0"]
+[background arg="res://实际/背景/final主背景.png" fade="0.0"]
 [background arg="res://实际/背景/forest.png" fade="0.0"]
 join Rabbit (Rabbit Run) left [animation="Slide From Left" length="2.0" wait="true"]
 A rabbit passes by in the background
@@ -11,21 +11,33 @@ Alice: Oh! A Talking Rabbit!
 	[clear time="1.0"]
 - follow the rabbit
 	[clear time="1.0"]
+label rabbit hole
 [background arg="res://实际/背景/converted-564.png" fade="0.0"]
 leave Rabbit
 leave Alice
 Alice falls into a rabbit hole\
 and found a small door
-Let me get the key ! But, I need to get throught the small door what should I do ?
-[background arg="res://实际/背景/Gemini_Generated_Image_7frwij7frwij7frw.png" fade="0.0"]
+[background arg="res://实际/背景/找到门.png" fade="0.0"]
+WOW a small door !
+Let me get the key ! \
+But, I need to get throught the small door.\
+What should I do ?
+[background arg="res://实际/背景/毒药和蘑菇在桌上.png" fade="0.0"]
+She walks around, finds a table and there's a poison and a mushroom in the table.
 - Eat the mushroom
 - Drink the poison
-	Alice (alice standing): Oh No ! I cannot reach the key!
-	- eat the mushroom (become biggerthen cry )
-WOW a small door !
-[background arg="res://实际/背景/forest.png" fade="0.0"]
-leave Alice
+	[background arg="res://实际/背景/变大的场景.png" fade="0.0"]
+	Alice (alice standing): Oh No ! I cannot reach the key!\
+	I became so big!!!! I wanna cry!!! )
+	- eat the mushroom
+[background arg="res://实际/背景/变小1.png" fade="0.0"]
+After she ate the mushroom,\
+She became small and she walked through the small door
+[background arg="res://实际/背景/选择四个.png" fade="0.0"]
+There's four routes in front of her...
 - Twinkle dee and dun
+	join Alice right
+	[background arg="res://实际/背景/forest.png" fade="0.0"]
 	join Tweedledum left
 	Tweedledum: Contrariwise, if it was so, it might be; and if it were so, it would be; but as it isn’t, it ain’t. That’s logic.
 	leave Tweedledum
@@ -47,6 +59,7 @@ leave Alice
 	Tweedledum: Tweedledum\: The Walrus felt sorry…
 	Tweedledee: Tweedledee\: But he ate more than the Carpenter.
 - Go to the flowers
+	[background arg="res://实际/背景/forest.png" fade="0.0"]
 	join Alice (alice standing) right
 	Alice steps into a bright, perfectly arranged garden. The flowers are tall, symmetrical, and facing the same direction. As she moves forward, they begin to whisper.
 	join Rose left
@@ -129,6 +142,7 @@ leave Alice
 	Daisy: She was never meant to bloom here.
 	Alice exits. The flowers return to stillness, facing the sun as if nothing happened.
 - Find the talking caterpillar
+	[background arg="res://实际/背景/forest.png" fade="0.0"]
 	join Alice right
 	A Caterpillar sits on a mushroom, watching Alice through a cloud of smoke.
 	join Caterpillar left
@@ -160,6 +174,7 @@ leave Alice
 - Met Cheshire cat
 	jump cheshire_cat_scene
 label cheshire_cat_scene
+[background arg="res://实际/背景/forest.png" fade="0.0"]
 [clear time="1.0"]
 join Alice right
 join "Cheshire Cat" left
@@ -259,3 +274,4 @@ leave Queen
 [background arg="res://实际/背景/Gemini_Generated_Image_hq9hg6hq9hg6hq9h.png" fade="0.0"]
 Alice woke up from her dream ! !
 [wait time="1.3"]
+[background fade="0.0"]
