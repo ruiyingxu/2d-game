@@ -36,8 +36,8 @@ She became small and she walked through the small door
 [background arg="res://实际/背景/选择四个.png" fade="0.0"]
 There's four routes in front of her...
 - Twinkle dee and dun
-	join Alice right
 	[background arg="res://实际/背景/forest.png" fade="0.0"]
+	join Alice right
 	join Tweedledum left
 	Tweedledum: Contrariwise, if it was so, it might be; and if it were so, it would be; but as it isn’t, it ain’t. That’s logic.
 	leave Tweedledum
