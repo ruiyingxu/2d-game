@@ -235,14 +235,14 @@ label Trail day
 join Alice center
 leave Queen
 [background arg="res://实际/背景/Gemini_Generated_Image_guxjhjguxjhjguxj.png" fade="0.0"]
-- Eat the Mushroom
+- Drink the posion
 	jump Eat The Mushroom
-	label Eat The Mushroom
+	label Drink the posion
 	join Alice center
 	[background arg="res://实际/背景/Gemini_Generated_Image_guxjhjguxjhjguxj.png" fade="0.0"]
 	Alice beame huge and everyone is afraid of her
 	Alice (alice standing): Look ! Now you should be afraid of me!
-	Two minutes later she returns to norma
+	Two minutes later she returns to normal size
 	Alice (Alice Shock): Wait .. No!
 	[wait time="1.0"]
 	jump Trail day
@@ -262,16 +262,16 @@ Choose the right door to escape or you will trap in the same situation forever
 - C
 	jump DoorScene
 label AliceSleep
-[background arg="res://实际/背景/Gemini_Generated_Image_sci8g0sci8g0sci8.png" fade="0.0"]
-join Alice center
+[background arg="res://实际/背景/garden.png" fade="0.0"]
+join Alice left
 Alice: Wake Up!
-join Queen center
+join Queen right
 Queen: Get her !
 Alice: No !
 leave Alice
 leave Queen
 [wait time="2.0"]
-[background arg="res://实际/背景/Gemini_Generated_Image_hq9hg6hq9hg6hq9h.png" fade="0.0"]
+[background arg="res://实际/背景/赢）醒.png" fade="0.0"]
 Alice woke up from her dream ! !
+You won!!!!
 [wait time="1.3"]
-[background fade="0.0"]
