@@ -133,10 +133,13 @@ autoplay = true
 layer = 200
 
 [node name="GameOverBG" type="TextureRect" parent="GameOverLayer" unique_id=1942986222]
-visible = false
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = -43.0
+offset_top = 1.0
+offset_right = 73.49988
+offset_bottom = 61.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = SubResource("CompressedTexture2D_ks2t6")
