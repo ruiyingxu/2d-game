@@ -5,6 +5,8 @@
 [ext_resource type="Texture2D" uid="uid://bgd1s28rcnqpi" path="res://实际/converted-569.png" id="3_timer"]
 [ext_resource type="AudioStream" uid="uid://df6u7ky8sj3os" path="res://music/musicalice.MP3" id="4_ks2t6"]
 
+[sub_resource type="LabelSettings" id="LabelSettings_ks2t6"]
+
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ks2t6"]
 load_path = "res://.godot/imported/（输）forever stay in wonderland.png-4f81dc71a826a8dd83acb1a8703c6849.ctex"
 
@@ -45,6 +47,7 @@ grow_vertical = 2
 alignment = 1
 
 [node name="Label" type="Label" parent="VBoxContainer" unique_id=1941425075]
+visible = false
 modulate = Color(0.0126172, 0.0126172, 0.0126172, 1)
 custom_minimum_size = Vector2(10, 10)
 layout_direction = 2
@@ -68,6 +71,7 @@ Choose wisely.
 Because if the clock reaches midnight…
 
 You will remain in Wonderland… forever."
+label_settings = SubResource("LabelSettings_ks2t6")
 horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 3
