@@ -1,3 +1,5 @@
+leave "mat hatter"
+leave Alice
 join Alice (Alice Shock) center
 [background arg="res://实际/背景/Gemini_Generated_Image_608li4608li4608l.png" fade="0.0"]
 - left

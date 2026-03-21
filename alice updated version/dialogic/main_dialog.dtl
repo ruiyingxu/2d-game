@@ -1,4 +1,5 @@
 [background arg="res://实际/背景/final主背景.png" fade="0.0"]
+audio music "res://music/musicalice.MP3"
 [background arg="res://实际/背景/forest.png" fade="0.0"]
 join Rabbit (Rabbit Run) left [animation="Slide From Left" length="2.0" wait="true"]
 A rabbit passes by in the background
@@ -12,6 +13,7 @@ Alice: Oh! A Talking Rabbit!
 - follow the rabbit
 	[clear time="1.0"]
 label rabbit hole
+audio music "res://music/掉.MP3"
 [background arg="res://实际/背景/converted-564.png" fade="0.0"]
 leave Rabbit
 leave Alice
@@ -34,6 +36,7 @@ She walks around, finds a table and there's a poison and a mushroom in the table
 After she ate the mushroom,\
 She became small and she walked through the small door
 [background arg="res://实际/背景/选择四个.png" fade="0.0"]
+audio music "res://music/musicalice.MP3"
 There's four routes in front of her...
 - Twinkle dee and dun
 	[background arg="res://实际/背景/forest.png" fade="0.0"]
@@ -174,6 +177,7 @@ There's four routes in front of her...
 - Met Cheshire cat
 	jump cheshire_cat_scene
 label cheshire_cat_scene
+audio "res://music/musicalice.MP3"
 [background arg="res://实际/背景/forest.png" fade="0.0"]
 [clear time="1.0"]
 join Alice right
@@ -201,6 +205,7 @@ Alice hesitates, then walks toward the distant sound of teacups clattering.
 leave Alice
 label mad_hatter_scene
 [clear time="1.0"]
+audio music "res://music/matttt.mp3"
 join "mat hatter" left
 join Alice right
 "mat hatter": Hi Alice! Do you want to have a tea with me?
@@ -212,6 +217,7 @@ join Alice right
 	leave "mat hatter"
 leave "mat hatter"
 label Meet The Queen
+audio music "res://music/red queen.mp3"
 [background arg="res://实际/背景/Gemini_Generated_Image_nxi5xjnxi5xjnxi5.png" fade="0.0"]
 join Alice (alice standing) left
 join Queen right
@@ -250,6 +256,7 @@ leave Queen
 	jump DoorScene
 [wait time="1.0"]
 label DoorScene
+audio music "res://music/选择滴滴滴.mp3"
 join Alice (Alice Shock) leftmost
 leave Alice
 [background arg="res://实际/背景/Gemini_Generated_Image_raoitqraoitqraoi.png" fade="0.0"]

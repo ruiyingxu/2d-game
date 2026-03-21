@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(unzip -q ~/Downloads/dialogic-main.zip -d /tmp/dialogic_temp)",
-      "Bash(mkdir -p addons)",
-      "Bash(cp -r /tmp/dialogic_temp/dialogic-main/addons/dialogic addons/)"
-    ]
-  }
-}
