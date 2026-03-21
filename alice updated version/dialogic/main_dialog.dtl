@@ -262,11 +262,11 @@ leave Alice
 [background arg="res://实际/背景/Gemini_Generated_Image_raoitqraoitqraoi.png" fade="0.0"]
 Three doors and only one leads to the real world...
 Choose the right door to escape or you will trap in the same situation forever
-- A
+- Door A
 	jump AliceSleep
-- B
+- Door B
 	jump DoorScene
-- C
+- Door C
 	jump DoorScene
 label AliceSleep
 [background arg="res://实际/背景/Gemini_Generated_Image_sci8g0sci8g0sci8.png" fade="0.0"]
