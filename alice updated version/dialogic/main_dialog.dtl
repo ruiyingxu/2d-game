@@ -25,7 +25,7 @@ Let me get the key ! \
 But, I need to get throught the small door.\
 What should I do ?
 [background arg="res://实际/背景/毒药和蘑菇在桌上.png" fade="0.0"]
-She walks around, finds a table and there's a poison and a mushroom in the table.
+She walks around, finds a table and there's a poison and a mushroom on the table.
 - Eat the mushroom
 - Drink the poison
 	[background arg="res://实际/背景/变大的场景.png" fade="0.0"]
@@ -269,7 +269,7 @@ Choose the right door to escape or you will trap in the same situation forever
 - C
 	jump DoorScene
 label AliceSleep
-[background arg="res://实际/背景/garden.png" fade="0.0"]
+[background arg="res://实际/背景/Gemini_Generated_Image_sci8g0sci8g0sci8.png" fade="0.0"]
 join Alice left
 Alice: Wake Up!
 join Queen right

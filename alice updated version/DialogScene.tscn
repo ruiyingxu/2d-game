@@ -45,7 +45,6 @@ grow_vertical = 2
 alignment = 1
 
 [node name="Label" type="Label" parent="VBoxContainer" unique_id=1941425075]
-visible = false
 modulate = Color(0.0126172, 0.0126172, 0.0126172, 1)
 custom_minimum_size = Vector2(10, 10)
 layout_direction = 2
@@ -131,6 +130,7 @@ autoplay = true
 
 [node name="GameOverLayer" type="CanvasLayer" parent="." unique_id=1691126584]
 layer = 200
+visible = false
 
 [node name="GameOverBG" type="TextureRect" parent="GameOverLayer" unique_id=1942986222]
 anchors_preset = 15
