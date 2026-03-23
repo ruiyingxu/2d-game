@@ -131,8 +131,10 @@ autoplay = true
 
 [node name="GameOverLayer" type="CanvasLayer" parent="." unique_id=1691126584]
 layer = 200
+visible = false
 
 [node name="GameOverBG" type="TextureRect" parent="GameOverLayer" unique_id=1942986222]
+visible = false
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0

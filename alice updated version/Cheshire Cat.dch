@@ -19,7 +19,7 @@
 &"portraits": {
 "Cheshire Cat": {
 "export_overrides": {
-"image": "\"res://实际/Cheshire cat .png\""
+"image": "\"res://实际/mao.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
